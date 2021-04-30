@@ -1,0 +1,16 @@
+:root{
+    --width-input: 30vh;
+}
+
+.container{
+    padding: 10vh;
+}
+
+input {
+    min-width: var(--width-input);
+}
+
+#btnEntrar{
+    margin-top: 2vh;
+    min-width: var(--width-input);
+}
